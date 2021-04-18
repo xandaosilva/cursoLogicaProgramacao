@@ -1,0 +1,18 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		double salario, aumento, novoSalario;
+		int porcentagem;
+		
+		System.out.print("Digite o salario da pessoa: ");
+		salario = sc.nextDouble();
+		
+		
+		
+		sc.close();
+	}
+}

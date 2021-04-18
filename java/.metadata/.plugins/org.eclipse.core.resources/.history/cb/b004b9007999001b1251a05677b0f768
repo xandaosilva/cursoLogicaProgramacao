@@ -1,0 +1,37 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int n, coelhos, ratos, sapos, totalCobaias;
+		double pCoelhos, pRatos, pSapos;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		System.out.println();
+		System.out.println("RELATORIO FINAL:");
+		System.out.println("Total: " + totalCobaias + " cobaias");
+		System.out.println("Total de coelhos: " + coelhos);
+		System.out.println("Total de ratos: " + ratos);
+		System.out.println("Total de sapos: " + sapos);
+		System.out.println("Percentual de coelhos: " + String.format("%.2f", + pCoelhos));
+		System.out.println("Percentual de ratos: " + String.format("%.2f", pRatos));
+		System.out.println("Percentual de sapos:" +  String.format("%.2f", pSapos));
+		sc.close();
+	}
+}

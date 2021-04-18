@@ -1,0 +1,20 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a largura do terreno: ");
+		
+		System.out.println("Digite o comprimento do terreno: ");
+		
+		System.out.println("Digite o valor do metro quadrado: ");
+		
+		
+		
+		System.out.println("Digite a largura do terreno: ");
+		System.out.println("Digite a largura do terreno: ");
+		sc.close();
+	}
+}

@@ -1,0 +1,15 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int x, soma;
+		
+		System.out.print("Digite um numero inteiro: ");
+		x = sc.nextInt();
+		
+		
+		sc.close();
+	}
+}

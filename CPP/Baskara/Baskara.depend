@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1617771234 source:c:\users\xanda\dropbox\logica programação\cpp\baskara\main.cpp
+	<iostream>
+	<iomanip>
+	<math.h>
+

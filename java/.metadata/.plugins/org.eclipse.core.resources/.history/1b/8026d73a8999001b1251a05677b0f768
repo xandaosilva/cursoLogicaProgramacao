@@ -1,0 +1,20 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int n;
+		double soma, media;
+		
+		System.out.print("Quantos elementos vai ter o vetor? ");
+		n = sc.nextInt();
+		
+		
+		
+		
+		
+		sc.close();
+	}
+}

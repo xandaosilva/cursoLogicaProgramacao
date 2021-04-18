@@ -1,0 +1,20 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		double x, y;
+		String coordenada;
+		
+		System.out.print("Valor de X: ");
+		System.out.println("Valor de Y: ");
+		
+		
+		
+		
+		
+		
+		sc.close();
+	}
+}

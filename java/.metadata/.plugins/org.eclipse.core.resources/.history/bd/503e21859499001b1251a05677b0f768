@@ -1,0 +1,18 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int n, quantidadeHomens = 0, quantidadeMulheres = 0;
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+	}
+}

@@ -1,0 +1,19 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int x, resposta;
+		
+		System.out.print("Deseja a tabuada para qual valor? ");
+		x = sc.nextInt();
+		
+		
+		for(int i = 1; i <= 10; i++) {
+			resposta = x * i;
+			System.out.println(x + " X " + i + " = " + resposta);
+		}
+		
+		sc.close();
+	}
+}

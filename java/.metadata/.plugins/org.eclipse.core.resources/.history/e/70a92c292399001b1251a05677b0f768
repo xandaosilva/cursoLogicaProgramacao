@@ -1,0 +1,20 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		double salario, aumento, novoSalario;
+		int porcentagem;
+		
+		System.out.print("Digite o salario da pessoa: ");
+		salario = sc.nextDouble();
+		
+		
+		System.out.println("Novo salario = R$" + String.format("%.2f", novoSalario));
+		System.out.println("Aumento = R$" + String.format("%.2f", aumento));
+		System.out.println("Porcentagem = " + String.format("%.2f", porcentagem) + "%");
+		sc.close();
+	}
+}

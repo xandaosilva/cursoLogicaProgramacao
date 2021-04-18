@@ -1,0 +1,26 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		int x, quantidade, soma;
+		double media;
+		
+		System.out.println("Digite as idades:");
+		x = sc.nextInt();
+		
+		soma = 0;
+		quantidade = 0;
+		
+		if(quantidade == 0) {
+			System.out.println("IMPOSSIVEL CALCULAR");
+		}
+		else {
+			media = soma/quantidade;
+			System.out.println("" + String.format("%.2f", media));
+		}
+		sc.close();
+	}
+}

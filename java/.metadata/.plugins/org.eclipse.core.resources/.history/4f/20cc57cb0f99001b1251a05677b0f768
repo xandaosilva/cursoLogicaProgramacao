@@ -1,0 +1,26 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		double a, b, c, areaQuadrado, areaTriangulo, areaTrapezio;
+		
+		System.out.print();
+		
+		System.out.print();
+		
+		System.out.print();
+		
+		
+		
+		
+		
+		System.out.println("" + String.format("%.4f", areaQuadrado));
+		System.out.println("" + String.format("%.4f", areaTriangulo));
+		System.out.println("" + String.format("%.4f", areaTrapezio));
+		
+		sc.close();
+	}
+}

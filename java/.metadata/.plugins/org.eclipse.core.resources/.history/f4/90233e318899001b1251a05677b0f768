@@ -1,0 +1,17 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int n;
+		
+		System.out.println("");
+		n = sc.nextInt();
+		
+		int[] vetA = new int[n], vetB = new int[n], vetC = new int[n];
+		
+		
+		sc.close();
+	}
+}

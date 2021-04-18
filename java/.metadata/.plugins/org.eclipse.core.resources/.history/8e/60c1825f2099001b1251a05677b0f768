@@ -1,0 +1,17 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		int codigo, quantidade;
+		double valorPagamento;
+		
+		System.out.print("Codigo do produto comprado: ");
+		codigo = sc.nextInt();
+		System.out.print("Quantidade comprada: ");
+		quantidade = sc.nextInt();
+		
+		sc.close();
+	}
+}

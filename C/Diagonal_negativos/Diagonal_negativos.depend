@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1617245263 source:c:\users\xanda\documents\logica\c\diagonal_negativos\main.c
+	<stdio.h>
+	<stdlib.h>
+

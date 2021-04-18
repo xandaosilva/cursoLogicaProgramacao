@@ -1,0 +1,27 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double glicose;
+		String classificacao;
+		
+		System.out.print("Digite a medida da glicose: ");
+		glicose = sc.nextDouble();
+		
+		
+		if() {
+			classificacao = "normal";
+		}
+		else if() {
+			classificacao = "elevado";
+		}
+		else {
+			classificacao = "diabetes";
+		}
+		
+		
+		System.out.println("Classificacao: " + classificacao);
+		sc.close();
+	}
+}

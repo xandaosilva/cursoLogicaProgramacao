@@ -1,0 +1,27 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int codigo, alcool = 0, gasolina = 0, diesel = 0;
+		
+		System.out.println("Informe um codigo (1, 2, 3) ou 4 para parar: ");
+		codigo = sc.nextInt();
+		
+		while(codigo != 4) {
+			switch (codigo) {
+				case 1: {
+					alcool++;
+				}
+				case 2:{
+					gasolina++;
+				}
+				case 3:{
+					diesel++;
+				}
+			}
+		}
+		
+		sc.close();
+	}
+}

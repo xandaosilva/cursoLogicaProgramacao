@@ -1,0 +1,20 @@
+package main;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int n, quantidadeHomens = 0, quantidadeMulheres = 0;
+		char genero;
+		
+		
+		System.out.print("Quantas pessoas serao digitadas? ");
+		n = sc.nextInt();
+		
+		double[] alturas = new double[n];
+		
+		
+		sc.close();
+	}
+}
